@@ -130,9 +130,11 @@ img{
 
 .lots{
   padding: 180px 24px;
-  background-color: chartreuse;
   width: 100%;
   min-height: 723px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .h2{
@@ -143,7 +145,9 @@ img{
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
-  color:black
+  color:black;
+  margin-bottom:27px;
+  margin-left: 40px;
 }
 
 .card-list{
@@ -153,20 +157,46 @@ img{
   gap:25px;
 }
 
-.card{
-  padding: 48px 40px;
-  display: flex;
-  flex-direction: column;
+.card-Anderson{
   list-style-type: none;
   min-height: 596px;
   width: 334px;
   background-image: url(/ono-tebe-nado-fd/images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+.card-Joyse{
+  list-style-type: none;
+  min-height: 596px;
+  width: 334px;
+  background-image: url(/ono-tebe-nado-fd/images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-Kandinsky{
+  list-style-type: none;
+  min-height: 596px;
+  width: 334px;
+  background-image: url(/ono-tebe-nado-fd/images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-container{
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .h3{
-  justify-self: flex-start;
+  justify-self: flex-start; 
   font-family: Raleway;
   font-weight: 700;
   font-style: Bold;
@@ -189,4 +219,17 @@ img{
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0%;
+}
+
+.lots-more-info{
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color:#000;
+  text-decoration: underline;
+  margin-top:30px;
+  margin-left: 40px;
 }
