@@ -3,21 +3,13 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  /*position: absolute;
-  right: 0;
-  left:0;
-  top:0;*/
   width: 100%;
-  background-color: blueviolet;
   
 }
 
-img{
-  background: #000;
-}
+
 
 .logo-nav{
-  background-color: blue;
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
@@ -29,7 +21,9 @@ img{
   width: 100%;
   height: 100%;
   display: flex; 
-  justify-content: space-evenly;
+  
+  justify-content: space-around;
+  align-items: center;
   list-style: none; 
   padding: 0;       
   margin: 0;        
@@ -41,12 +35,15 @@ img{
 }
 
 .li-decorated{
-  list-style-type: circle;
-  text-decoration: underline;
+  width:6px;
+  height: 6px;
+  border-radius: 50%;
+  border:1px #000 solid ;
+  /* list-style-type: circle;
+  text-decoration: underline; */
 }
 
 .header-logo{
-  background-color: red;
   width: 148Px;
   height: 105px;
 }
@@ -54,16 +51,12 @@ img{
 .address{
   display: grid;
   justify-content: space-evenly;
-  background-color: aqua;
-
 }
 
 .a-decorated{
   text-decoration: underline;
 }
 
-/* TODO: разобраться с затемнением картинки
-*/
 .cover{
   display: flex;
   flex-direction: column;
@@ -72,9 +65,7 @@ img{
   padding-right: 50px;
   padding-bottom: 50px;
   padding-top: 50px;
-  
-  opacity: 0.6;
-  background-image: url("/ono-tebe-nado-fd/images/cover.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/ono-tebe-nado-fd/images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 757px;
@@ -238,7 +229,6 @@ img{
   min-height: 595px;
   width:100%;
   padding: 120px 24px;
-  background-color: blueviolet;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -287,4 +277,31 @@ img{
   color:#000;
   margin-bottom: 24px;
   margin-right: 5px;
+}
+
+.footer{
+  margin: 180px 50px auto 50px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-network{
+  display: flex;
+  flex-direction: row;
+  gap:48px;
+}
+
+.link-image{
+  width: 48px;
+  height: 48px;
+  background-color: white;
 }
