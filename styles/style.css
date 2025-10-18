@@ -233,3 +233,58 @@ img{
   margin-top:30px;
   margin-left: 40px;
 }
+
+.about{
+  min-height: 595px;
+  width:100%;
+  padding: 120px 24px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0;
+}
+
+.logo-column{
+  margin-top: 35px;
+  align-self: flex-start;
+  margin-left:47px;
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-white{
+  width: 148px;
+  height: 114px;
+  place-self: center center;
+}
+
+.description-column{
+  width:693px;
+  margin-top: 133px ;
+  margin-right: 24px;
+}
+
+.description-column .h2{
+  margin-left: 0px;
+  margin-bottom: 100px;
+  
+}
+
+.description-text{
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color:#000;
+  margin-bottom: 24px;
+  margin-right: 5px;
+}
