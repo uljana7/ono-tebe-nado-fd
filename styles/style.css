@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   width: 100%;
-  
 }
 
 .logo-nav {
@@ -24,7 +23,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap:5px;
+  gap: 5px;
   list-style: none;
 }
 
@@ -34,14 +33,14 @@
 }
 
 .li-decorated {
-  width:6px;
+  width: 6px;
   height: 6px;
   border-radius: 50%;
-  border:1px #000 solid ;
+  border: 1px #000 solid;
 }
 
 .header-logo {
-  width: 148Px;
+  width: 148px;
   height: 105px;
 }
 
@@ -72,7 +71,8 @@
   padding-right: 20px;
   padding-bottom: 50px;
   padding-top: 50px;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/cover.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 757px;
@@ -80,7 +80,7 @@
 
 .h1 {
   margin-top: 115px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   font-family: Raleway;
   font-weight: 700;
@@ -123,7 +123,7 @@
 }
 
 .description-subtitle {
-  margin-top:15px;
+  margin-top: 15px;
   word-spacing: 0.85em;
 }
 
@@ -132,7 +132,7 @@
   padding: 15px 31px;
   height: 51px;
   background-color: transparent;
-  border:1px solid white;
+  border: 1px solid white;
   font-family: Raleway;
   font-weight: 500;
   font-style: Medium;
@@ -151,7 +151,7 @@
   min-height: 710px;
   display: flex;
   flex-direction: column;
-  gap:2px;
+  gap: 2px;
   justify-content: space-between;
 }
 
@@ -163,8 +163,8 @@
   line-height: 100%;
   letter-spacing: 0em;
   text-transform: uppercase;
-  color:black;
-  margin-bottom:27px;
+  color: black;
+  margin-bottom: 27px;
   margin-left: 40px;
 }
 
@@ -172,7 +172,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  gap:25px;
+  gap: 25px;
 }
 
 .card-container {
@@ -226,7 +226,7 @@
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
-  color:white;
+  color: white;
 }
 
 .card-text {
@@ -247,27 +247,27 @@
   font-size: 20px;
   line-height: 190%;
   letter-spacing: 0em;
-  color:#000;
+  color: #000;
   text-decoration: underline;
   text-underline-offset: 5px;
-  margin-top:22px;
+  margin-top: 22px;
   margin-left: 40px;
 }
 
 .about {
-  margin-top:112px;
+  margin-top: 112px;
   min-height: 595px;
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding:0;
+  padding: 0;
 }
 
 .logo-column {
   margin-top: 35px;
   align-self: flex-start;
-  margin-left:70px;
+  margin-left: 70px;
   width: 240px;
   height: 240px;
   background-color: #000;
@@ -285,15 +285,14 @@
 }
 
 .description-column {
-  width:693px;
-  margin-top: 140px ;
+  width: 693px;
+  margin-top: 140px;
   margin-right: 24px;
 }
 
 .description-column .h2 {
   margin-left: 0px;
   margin-bottom: 102px;
-  
 }
 
 .description-text {
@@ -303,7 +302,7 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0em;
-  color:#000;
+  color: #000;
   margin-bottom: 24px;
   margin-right: 3px;
 }
@@ -315,14 +314,14 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  gap:0px;
+  gap: 0px;
 }
 
 .menu {
   letter-spacing: 1px;
   line-height: 20.5px;
   text-underline-offset: 4px;
-  margin-top:7px;
+  margin-top: 7px;
   margin-right: 27px;
   display: flex;
   flex-direction: column;
@@ -330,10 +329,10 @@
 }
 
 .social-network {
-  padding-top:4px;
+  padding-top: 4px;
   display: flex;
   flex-direction: row;
-  gap:48px;
+  gap: 48px;
 }
 
 .link-image {
