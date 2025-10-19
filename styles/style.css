@@ -72,7 +72,7 @@
   padding-right: 20px;
   padding-bottom: 50px;
   padding-top: 50px;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/ono-tebe-nado-fd/images/cover.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 757px;
@@ -188,7 +188,7 @@
   list-style-type: none;
   min-height: 596px;
   width: 334px;
-  background-image: url(/ono-tebe-nado-fd/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -198,7 +198,7 @@
   list-style-type: none;
   min-height: 596px;
   width: 334px;
-  background-image: url(/ono-tebe-nado-fd/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -208,7 +208,7 @@
   list-style-type: none;
   min-height: 596px;
   width: 334px;
-  background-image: url(/ono-tebe-nado-fd/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
