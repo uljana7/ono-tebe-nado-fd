@@ -11,15 +11,13 @@
   </head>
   <body>
     <header class="header">
-      <nav class="logo-nav">
+      <nav class="header__menu">
         <ul>
-          <li class="li-simple"><a href="#0">главная</a></li>
-          <li class="li-decorated"></li>
-          <li class="li-simple">
+          <li class="active-link"><a href="#0">главная</a></li>
+          <li class="simple-link">
             <a href="#0" class="a-decorated">посмотреть лоты</a>
           </li>
-          <li class="li-decorated"></li>
-          <li class="li-simple">
+          <li class="simple-link">
             <a href="#0" class="a-decorated">об аукционе</a>
           </li>
         </ul>
@@ -28,7 +26,7 @@
         ><img
           src="images/logo-black.svg"
           alt="логотип проекта"
-          class="header-logo"
+          class="header__logo"
       /></a>
       <address class="address">
         <a class="a-decorated" href="tel:+99995555555">+9 999 555 5555</a>
@@ -41,26 +39,28 @@
     </header>
     <main>
       <section class="cover">
-        <h1 class="h1">
-          <span class="h1-word1">ОНО</span>
-          <span class="h1-word2">ТЕБЕ</span>
-          <span class="h1-word3">НАДО</span>
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="cover__title__word-left">ОНО</span>
+          <span class="cover__title__word-center">ТЕБЕ</span>
+          <span class="cover__title__word-right">НАДО</span>
         </h1>
         <div class="description">
-          <p class="description-subtitle">
+          <p class="description__subtitle">
             Аукцион вещей, в которые никто не верил
           </p>
           <button class="bet-button">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h2 class="h2">Лоты</h2>
-        <ul class="card-list">
-          <li class="card-Anderson">
+        <h2 class="lots__title">Лоты</h2>
+        <ul class="card__list">
+          <li class="card card-Anderson">
+            <div class="overlay"></div>
             <a>
-              <article class="card-container">
+              <article class="card__container">
                 <h3 class="h3">Фильм режиссёра, который бросил киношколу</h3>
-                <p class="card-text">
+                <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
@@ -68,13 +68,14 @@
               </article>
             </a>
           </li>
-          <li class="card-Joyse">
+          <li class="card card-Joyse">
+            <div class="overlay"></div>
             <a>
-              <article class="card-container">
+              <article class="card__container">
                 <h3 class="h3">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
-                <p class="card-text">
+                <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
@@ -85,13 +86,14 @@
               </article>
             </a>
           </li>
-          <li class="card-Kandinsky">
+          <li class="card card-Kandinsky">
+            <div class="overlay"></div>
             <a>
-              <article class="card-container">
+              <article class="card__container">
                 <h3 class="h3">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
-                <p class="card-text">
+                <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков... Сколько бы вы на такое поставили, если бы не знали,
@@ -112,7 +114,7 @@
           />
         </div>
         <div class="description-column">
-          <h2 class="h2">Об аукционе</h2>
+          <h2 class="about__title">Об аукционе</h2>
           <div>
             <p class="description-text">
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -143,24 +145,37 @@
           Амстердам</a
         >
       </address>
-      <ul class="menu">
-        <li class="li-simple"><a href="#0">главная</a></li>
-        <li class="li-simple">
-          <a href="#0" class="a-decorated">посмотреть лоты</a>
+      <nav>
+        <ul class="menu">
+          <li class="active-link"><a href="#0">главная</a></li>
+          <li class="simple-link">
+            <a href="#0" class="a-decorated">посмотреть лоты</a>
+          </li>
+          <li class="simple-link">
+            <a href="#0" class="a-decorated">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="social-network">
+        <li>
+          <a href="#0"
+            ><img src="images/yt.svg" alt="логотип ютюб" class="link-image"
+          /></a>
         </li>
-        <li class="li-simple">
-          <a href="#0" class="a-decorated">об аукционе</a>
+        <li>
+          <a href="#0"
+            ><img src="images/vk.svg" alt="логотип вк" class="link-image"
+          /></a>
+        </li>
+        <li>
+          <a href="#0"
+            ><img
+              src="images/pinterest.svg"
+              alt="логотип пинтерест"
+              class="link-image"
+          /></a>
         </li>
       </ul>
-      <div class="social-network">
-        <img src="images/yt.svg" alt="логотип ютюб" class="link-image" />
-        <img src="images/vk.svg" alt="логотип вк" class="link-image" />
-        <img
-          src="images/pinterest.svg"
-          alt="логотип пинтерест"
-          class="link-image"
-        />
-      </div>
     </footer>
   </body>
 </html>
