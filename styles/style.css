@@ -29,11 +29,9 @@
 
 .active-link {
   text-decoration: none;
-  list-style-type: none;
 }
 
 .simple-link {
-
   list-style-type: circle;
 }
 
@@ -57,7 +55,7 @@
   justify-content: space-evenly;
 }
 
-.a-decorated {
+.underlined-text {
   text-decoration: underline;
 }
 
@@ -70,7 +68,7 @@
   padding-right: 20px;
   padding-bottom: 50px;
   padding-top: 50px;
-  background-image: url("../images/cover.jpg"); /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), */
+  background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 757px;
@@ -79,8 +77,8 @@
 .overlay {
   position: absolute;
   z-index: 1;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
@@ -93,7 +91,6 @@
   flex-direction: column;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 700;
-  /* font-style: Bold; */
   font-size: 100px;
   line-height: 114.99999999999999%;
   letter-spacing: 0.3em;
@@ -123,7 +120,6 @@
   justify-content: space-between;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  /* font-style: Regular; */
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0em;
@@ -138,13 +134,12 @@
 
 .bet-button {
   margin-right: 30px;
-  padding: 15px 31px;
+  padding: 13px 31px;
   min-height: 51px;
   background-color: transparent;
   border: 1px solid white;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 500;
-  /* font-style: Medium; */
   font-size: 22px;
   line-height: 100%;
   letter-spacing: 0em;
@@ -157,7 +152,6 @@
 .lots {
   padding: 185px 24px 0 24px;
   width: 100%;
-  /* min-height: 710px; */
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -167,7 +161,6 @@
 .lots__title {
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 700;
-  /* font-style: Bold; */
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0em;
@@ -180,7 +173,7 @@
 .card__list {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   gap: 25px;
 }
@@ -193,7 +186,6 @@
   height: 100%;
   gap: 35px;
   z-index: 2;
-  /* background-color: rgba(0, 0, 0, 0.6); */
 }
 
 .card {
@@ -205,24 +197,23 @@
   background-position: center;
 }
 
-.card-Anderson {
+.card-movie {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card-Joyse {
+.card-book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card-Kandinsky {
+.card-painting {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.h3 {
-  z-index:2;
+.card__title {
+  z-index: 2;
   justify-self: flex-start;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 700;
-  /* font-style: Bold; */
   font-size: 22px;
   line-height: 120%;
   letter-spacing: 0em;
@@ -234,12 +225,11 @@
 }
 
 .card__text {
-  z-index:2;
+  z-index: 2;
   justify-self: flex-end;
   color: white;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  /* font-style: Regular; */
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0em;
@@ -248,7 +238,6 @@
 .lots-more-info {
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  /* font-style: Regular; */
   font-size: 20px;
   line-height: 190%;
   letter-spacing: 0em;
@@ -261,7 +250,6 @@
 
 .about {
   margin-top: 112px;
-  /* min-height: 595px; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -300,7 +288,6 @@
   margin-bottom: 102px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 700;
-  /* font-style: Bold; */
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0em;
@@ -311,7 +298,6 @@
 .description-text {
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  /* font-style: Regular; */
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0em;
@@ -322,7 +308,6 @@
 
 .footer {
   padding: 153px 50px 50px 50px;
-  /* height: 180px; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -331,14 +316,18 @@
 }
 
 .menu {
-  letter-spacing: 1px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
   line-height: 20.5px;
   text-underline-offset: 4px;
-  margin-top: 7px;
-  margin-right: 27px;
+  margin-top: 5px;
+  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style-type: none;
 }
 
 .menu .simple-link {
