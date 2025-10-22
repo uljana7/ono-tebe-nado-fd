@@ -235,7 +235,7 @@
   letter-spacing: 0em;
 }
 
-.lots-more-info {
+.lots__more-info {
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -316,7 +316,7 @@
 }
 
 .menu {
-  font-family: Raleway;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
   text-align: center;
