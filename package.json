@@ -1,0 +1,26 @@
+{
+  "name": "ono-tebe-nado-fd",
+  "version": "1.0.0",
+  "description": "project #1",
+  "homepage": "https://github.com/uljana7/ono-tebe-nado-fd#readme",
+  "bugs": {
+    "url": "https://github.com/uljana7/ono-tebe-nado-fd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uljana7/ono-tebe-nado-fd.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'"
+  },
+  "dependencies": {
+    "prettier": "^3.6.2",
+    "stylelint": "^16.25.0"
+  }
+}
